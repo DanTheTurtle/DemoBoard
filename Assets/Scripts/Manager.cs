@@ -7,7 +7,9 @@ public class Manager : MonoBehaviour
 {
     public static Manager instance;
 	private static int lastScene = 0;
-    private static float volume = 1f;
+    private static float volume = 1f; 
+    private static int numVideos = 1; // actual number of videos-1
+    private static int seed = 0;
 	private Manager() { }
     // Life scale display, where a selectable human body shows three or more selectable exercises for each muscle group. Each exercise, once selected, will play a video demonstration across the touch panel. 
     // While the system is not in use a rotating selection of potential exercise examples plays
@@ -23,6 +25,7 @@ public class Manager : MonoBehaviour
 			Destroy(gameObject);
 		}
 		DontDestroyOnLoad(gameObject);
+        
     }
     public static void loadSplash() {
         Scene scene = SceneManager.GetActiveScene();
@@ -45,10 +48,19 @@ public class Manager : MonoBehaviour
         lastScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene(a, LoadSceneMode.Single);
         }
-    public static void loadVideo(int video) { // placeholder
+    public static void loadVideo(int video) {
         Scene scene = SceneManager.GetActiveScene();
         lastScene = SceneManager.GetActiveScene().buildIndex;
         SceneManager.LoadScene("video"+video, LoadSceneMode.Single);
+        }
+    public static void loadRandomVideo() { 
+        Scene scene = SceneManager.GetActiveScene();
+        lastScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene("video"+seed, LoadSceneMode.Single);
+        if(seed == numVideos)
+            seed = 0;
+        else
+            seed++;
         }
     public static void loadWorkout(int workout) { // placeholder
         Scene scene = SceneManager.GetActiveScene();

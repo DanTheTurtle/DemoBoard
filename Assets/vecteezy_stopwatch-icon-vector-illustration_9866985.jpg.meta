@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 4e52ec2d467101d48861acf38bf0eb6f
+guid: 15229027fde69574aa546692d6925be5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1211203489056247183
-    second: pause-button-2148106_1920 1_0
+      213: 3189945363182513685
+    second: vecteezy_stopwatch-icon-vector-illustration_9866985_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pause-button-2148106_1920 1_0
+      name: vecteezy_stopwatch-icon-vector-illustration_9866985_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 7
-        width: 715
-        height: 717
+        x: 0
+        y: 0
+        width: 1920
+        height: 1920
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8d49e3f72f0fc010800000000000000
-      internalID: 1211203489056247183
+      spriteID: 51ee5612866f44c20800000000000000
+      internalID: 3189945363182513685
       vertices: []
       indices: 
       edges: []
@@ -147,8 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      pause-button-2148106_1920 1_0: 1211203489056247183
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
