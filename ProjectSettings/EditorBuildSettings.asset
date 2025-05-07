@@ -27,6 +27,9 @@ EditorBuildSettings:
     path: Assets/Scenes/video1.unity
     guid: eab6ba4ef3013864ba01009178fd8e74
   - enabled: 1
+    path: Assets/Scenes/video2.unity
+    guid: b4f6c6204dbb08441815a8c6b5082f61
+  - enabled: 1
     path: Assets/Scenes/workout1.unity
     guid: 9f688208891988c4a9fefcda1a6bdeff
   - enabled: 1
